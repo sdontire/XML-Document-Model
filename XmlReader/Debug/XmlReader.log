@@ -1,0 +1,13 @@
+﻿Build started 4/7/2015 12:21:41 PM.
+     1>Project "C:\Users\Sneha\Desktop\New folder\XmlReader\XmlReader.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt XmlReader.cpp
+         XmlReader.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Sneha\Desktop\New folder\Debug\XmlReader.lib" /NOLOGO Debug\XmlReader.obj
+         XmlReader.vcxproj -> C:\Users\Sneha\Desktop\New folder\Debug\XmlReader.lib
+     1>Done Building Project "C:\Users\Sneha\Desktop\New folder\XmlReader\XmlReader.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.09

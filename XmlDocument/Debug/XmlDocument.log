@@ -1,0 +1,26 @@
+﻿Build started 4/7/2015 12:22:29 PM.
+     1>Project "C:\Users\Sneha\Desktop\New folder\XmlDocument\XmlDocument.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Display\Display.cpp ..\MTree\MNode.cpp ..\MTree\MTree.cpp ..\MTree\Utilities.cpp ..\XmlElement\XmlElement.cpp XmlDocument.cpp
+         XmlDocument.cpp
+         XmlElement.cpp
+         Utilities.cpp
+         MTree.cpp
+         MNode.cpp
+         Display.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Sneha\Desktop\New folder\Debug\XmlDocument.lib" /NOLOGO Debug\Display.obj
+         Debug\MNode.obj
+         Debug\MTree.obj
+         Debug\Utilities.obj
+         Debug\XmlElement.obj
+         Debug\XmlDocument.obj
+     1>MTree.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>MNode.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         XmlDocument.vcxproj -> C:\Users\Sneha\Desktop\New folder\Debug\XmlDocument.lib
+     1>Done Building Project "C:\Users\Sneha\Desktop\New folder\XmlDocument\XmlDocument.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.03

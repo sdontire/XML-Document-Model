@@ -1,0 +1,22 @@
+﻿Build started 4/7/2015 12:22:14 PM.
+     1>Project "C:\Users\Sneha\Desktop\New folder\Display\Display.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\MTree\MNode.cpp ..\MTree\MTree.cpp ..\MTree\Utilities.cpp Display.cpp
+         Display.cpp
+         Utilities.cpp
+         MTree.cpp
+         MNode.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Sneha\Desktop\New folder\Debug\Display.lib" /NOLOGO Debug\MNode.obj
+         Debug\MTree.obj
+         Debug\Utilities.obj
+         Debug\Display.obj
+     1>MTree.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>MNode.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Display.vcxproj -> C:\Users\Sneha\Desktop\New folder\Debug\Display.lib
+     1>Done Building Project "C:\Users\Sneha\Desktop\New folder\Display\Display.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.79

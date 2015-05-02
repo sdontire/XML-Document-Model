@@ -1,0 +1,19 @@
+﻿Build started 4/7/2015 12:21:40 PM.
+     1>Project "C:\Users\Sneha\Desktop\New folder\MTree\MTree.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MNode.cpp MTree.cpp Utilities.cpp
+         Utilities.cpp
+         MTree.cpp
+         MNode.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Sneha\Desktop\New folder\Debug\MTree.lib" /NOLOGO Debug\MNode.obj
+         Debug\MTree.obj
+         Debug\Utilities.obj
+     1>MNode.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         MTree.vcxproj -> C:\Users\Sneha\Desktop\New folder\Debug\MTree.lib
+     1>Done Building Project "C:\Users\Sneha\Desktop\New folder\MTree\MTree.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.87

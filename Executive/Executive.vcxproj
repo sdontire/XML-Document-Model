@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{013D4830-EDFD-4EC7-9835-913031E18D30}</ProjectGuid>
+    <RootNamespace>Executive</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Display\Display.h" />
+    <ClInclude Include="..\FileSystem\FileSystem.h" />
+    <ClInclude Include="..\MTree\MNode.h" />
+    <ClInclude Include="..\MTree\MTree.h" />
+    <ClInclude Include="..\MTree\Utilities.h" />
+    <ClInclude Include="..\XmlDocument\XmlDocument.h" />
+    <ClInclude Include="..\XmlElement\XmlElement.h" />
+    <ClInclude Include="..\XmlReader\XmlReader.h" />
+    <ClInclude Include="..\XmlTokenizer\Tokenizer.h" />
+    <ClInclude Include="..\XmlWriter\XmlWriter.h" />
+    <ClInclude Include="Executive.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Display\Display.cpp" />
+    <ClCompile Include="..\FileSystem\FileSystem.cpp" />
+    <ClCompile Include="..\MTree\MNode.cpp" />
+    <ClCompile Include="..\MTree\MTree.cpp" />
+    <ClCompile Include="..\MTree\Utilities.cpp" />
+    <ClCompile Include="..\XmlDocument\XmlDocument.cpp" />
+    <ClCompile Include="..\XmlElement\XmlElement.cpp" />
+    <ClCompile Include="..\XmlReader\XmlReader.cpp" />
+    <ClCompile Include="..\XmlTokenizer\Tokenizer.cpp" />
+    <ClCompile Include="..\XmlWriter\XmlWriter.cpp" />
+    <ClCompile Include="Executive.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Display\Display.vcxproj">
+      <Project>{4246e407-45bd-4719-b42a-2509f2f7482d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\FileSystem\FileSystem.vcxproj">
+      <Project>{3746c5c0-7355-4b53-b280-9b1fdcd04108}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\MTree\MTree.vcxproj">
+      <Project>{776eca19-f8a1-41e3-9b9e-7c85aa4dea23}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlDocument\XmlDocument.vcxproj">
+      <Project>{0a82ecdc-7520-453a-8f2c-d813feee7537}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlElement\XmlElement.vcxproj">
+      <Project>{406b7bc4-3a0d-4e79-a55f-39e1fb33a5ed}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlReader\XmlReader.vcxproj">
+      <Project>{02aacd8a-2669-4fa5-a74f-35abcfcb4b31}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\XmlTokenizer\XmlTokenizer.vcxproj">
+      <Project>{c581e09e-8652-4ffa-b2da-e5c19da9f0c3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

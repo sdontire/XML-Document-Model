@@ -1,0 +1,40 @@
+﻿Build started 4/7/2015 12:22:50 PM.
+     1>Project "C:\Users\Sneha\Desktop\New folder\Executive\Executive.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Display\Display.cpp ..\FileSystem\FileSystem.cpp ..\MTree\MNode.cpp ..\MTree\MTree.cpp ..\MTree\Utilities.cpp ..\XmlDocument\XmlDocument.cpp ..\XmlElement\XmlElement.cpp ..\XmlReader\XmlReader.cpp ..\XmlTokenizer\Tokenizer.cpp ..\XmlWriter\XmlWriter.cpp Executive.cpp
+         Executive.cpp
+         XmlWriter.cpp
+         Tokenizer.cpp
+         XmlReader.cpp
+         XmlElement.cpp
+         XmlDocument.cpp
+         Utilities.cpp
+         MTree.cpp
+         MNode.cpp
+         FileSystem.cpp
+         Display.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sneha\Desktop\New folder\Debug\Executive.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sneha\Desktop\New folder\Debug\Executive.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sneha\Desktop\New folder\Debug\Executive.lib" /MACHINE:X86 Debug\Display.obj
+         Debug\FileSystem.obj
+         Debug\MNode.obj
+         Debug\MTree.obj
+         Debug\Utilities.obj
+         Debug\XmlDocument.obj
+         Debug\XmlElement.obj
+         Debug\XmlReader.obj
+         Debug\Tokenizer.obj
+         Debug\XmlWriter.obj
+         Debug\Executive.obj
+         "C:\Users\Sneha\Desktop\New folder\Debug\MTree.lib"
+         "C:\Users\Sneha\Desktop\New folder\Debug\Display.lib"
+         "C:\Users\Sneha\Desktop\New folder\Debug\FileSystem.lib"
+         "C:\Users\Sneha\Desktop\New folder\Debug\XmlReader.lib"
+         "C:\Users\Sneha\Desktop\New folder\Debug\XmlDocument.lib"
+         "C:\Users\Sneha\Desktop\New folder\Debug\XmlTokenizer.lib"
+         Executive.vcxproj -> C:\Users\Sneha\Desktop\New folder\Debug\Executive.exe
+     1>Done Building Project "C:\Users\Sneha\Desktop\New folder\Executive\Executive.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.19
